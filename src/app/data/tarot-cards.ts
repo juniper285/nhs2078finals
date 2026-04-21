@@ -37,10 +37,10 @@ export function getCardImage(id: number): string {
     'wands8', 'wands9', 'wands10', 'wandsp', 'wandskn', 'wandsq', 'wandsk'
   ];
 
-  return `/cards/${cards[id]}.jpg`;
+  return `/cards/${cards[id]}.png`;
 }
 
-export const CARD_BACK_IMAGE = '/cards/patchwork.jpg';
+export const CARD_BACK_IMAGE = '/cards/patchwork.png';
 
 export const tarotCards: TarotCard[] = [
   // Major Arcana (0-21)
