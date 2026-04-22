@@ -63,7 +63,6 @@ export function ReadingPage() {
                   cardId={cardId}
                   onSelect={() => handleCardSelect(cardId)}
                   size="small"
-                  showDesignerLabel={false}
                 />
               ))}
             </div>
@@ -81,7 +80,6 @@ export function ReadingPage() {
                   isFlipped={isRevealed}
                   isSelected={true}
                   size="large"
-                  showDesignerLabel={false}
                 />
               </motion.div>
 
@@ -101,6 +99,14 @@ export function ReadingPage() {
                       >
                         <X size={20} />
                       </button>
+
+                      <h3 className="text-3xl font-serif text-purple-200 mb-2">{selectedCard.name}</h3>
+
+                      {selectedCard.designer && (
+                        <p className="text-xs text-purple-300/60 italic mb-4">
+                          ✦ Designed by {selectedCard.designer}
+                        </p>
+                      )}
 
                       <div className="flex gap-2 mb-4">
                         {selectedCard.keywords.map((keyword, idx) => (

@@ -124,9 +124,6 @@ export function BrowsePage() {
                 <TarotCard cardId={card.id} size="medium" showBack={false} />
                 <div className="text-center mt-2 w-full">
                   <p className="text-purple-300 text-sm font-semibold">{card.name}</p>
-                  {card.designer && (
-                    <p className="text-purple-400/60 text-xs italic">✦ Designed by {card.designer}</p>
-                  )}
                 </div>
               </div>
             </motion.div>

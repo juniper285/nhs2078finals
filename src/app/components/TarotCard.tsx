@@ -10,7 +10,6 @@ interface TarotCardProps {
   onSelect?: () => void;
   size?: 'small' | 'medium' | 'large';
   showBack?: boolean;
-  showDesignerLabel?: boolean;
 }
 
 export function TarotCard({
@@ -20,12 +19,10 @@ export function TarotCard({
   isDimmed = false,
   onSelect,
   size = 'medium',
-  showBack = true,
-  showDesignerLabel = true
+  showBack = true
 }: TarotCardProps) {
   const [isHovered, setIsHovered] = useState(false);
   const card = tarotCards[cardId];
-  const isAvailable = !card?.designer;
 
   const sizeClasses = {
     small: 'w-[100px] h-[141px]',
@@ -54,9 +51,7 @@ export function TarotCard({
       >
         {/* Card Back */}
         <div
-          className={`absolute inset-0 backface-hidden rounded-lg overflow-hidden shadow-xl ${
-            isAvailable ? 'border-2 border-dashed border-white/20' : 'border-2 border-purple-500/30'
-          }`}
+          className="absolute inset-0 backface-hidden rounded-lg overflow-hidden shadow-xl border-2 border-purple-500/30"
           style={{ backfaceVisibility: 'hidden' }}
         >
           <img
@@ -73,9 +68,7 @@ export function TarotCard({
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.2 }}
                 style={{
-                  boxShadow: isAvailable
-                    ? '0 0 20px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.15)'
-                    : '0 0 25px rgba(124, 58, 237, 0.8), 0 0 50px rgba(124, 58, 237, 0.5), 0 0 75px rgba(124, 58, 237, 0.3)',
+                  boxShadow: '0 0 25px rgba(124, 58, 237, 0.8), 0 0 50px rgba(124, 58, 237, 0.5), 0 0 75px rgba(124, 58, 237, 0.3)',
                 }}
               />
               <motion.div
@@ -86,12 +79,6 @@ export function TarotCard({
               />
             </>
           )}
-          {/* Designer label on hover */}
-          {showDesignerLabel && card?.designer && (
-            <div className="absolute bottom-2 left-2 text-[10px] text-purple-200/90 opacity-0 group-hover:opacity-100 transition-opacity bg-black/60 px-2 py-1 rounded backdrop-blur-sm">
-              {card.designer}
-            </div>
-          ))}
         </div>
 
         {/* Card Front */}
