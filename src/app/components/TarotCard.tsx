@@ -39,7 +39,7 @@ export function TarotCard({
       onClick={onSelect}
       whileHover={!isSelected && !isDimmed ? { scale: 1.05, y: -8 } : {}}
       animate={{
-        opacity: isDimmed ? 0.3 : (isAvailable ? 0.7 : 1),
+        opacity: isDimmed ? 0.3 : 1,
         scale: isSelected ? 1.1 : 1
       }}
       transition={{ duration: 0.3 }}
