@@ -22,7 +22,7 @@ export function LandingPage() {
             Wanderer's Tarot
           </h1>
           <p className="text-purple-300/70 text-lg max-w-md mx-auto">
-            Find grace for yourself.
+            Wyrd Bið Ful Aræd
           </p>
         </motion.div>
 
@@ -78,15 +78,6 @@ export function LandingPage() {
             <Library size={20} />
             Browse Deck
           </button>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.2 }}
-          className="mt-20 text-purple-400/40 text-sm"
-        >
-          Wyrd Bið Ful Aræd
         </motion.div>
       </div>
 
