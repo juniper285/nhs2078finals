@@ -19,10 +19,10 @@ export function LandingPage() {
           className="text-center mb-12"
         >
           <h1 className="text-7xl font-serif text-transparent bg-clip-text bg-gradient-to-r from-purple-200 via-violet-300 to-purple-200 mb-4">
-            Cosmic Tarot
+            Wanderer's Tarot
           </h1>
           <p className="text-purple-300/70 text-lg max-w-md mx-auto">
-            Discover the wisdom of the cards in a mystical journey through the cosmos
+            Find grace for yourself.
           </p>
         </motion.div>
 
@@ -86,7 +86,7 @@ export function LandingPage() {
           transition={{ duration: 1, delay: 1.2 }}
           className="mt-20 text-purple-400/40 text-sm"
         >
-          Let the cosmos guide your path
+          Wyrd Bið Ful Aræd
         </motion.div>
       </div>
 

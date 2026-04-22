@@ -52,8 +52,8 @@ export function ReadingPage() {
         {selectedCardId === null ? (
           <div>
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-serif text-purple-200 mb-2">Choose Your Card</h2>
-              <p className="text-purple-400/70">Focus your intention and select one card from the deck</p>
+              <h2 className="text-4xl font-serif text-purple-200 mb-2">Speak of your trouble</h2>
+              <p className="text-purple-400/70">For us, all permeance rests.</p>
             </div>
 
             <div className="grid grid-cols-13 gap-3 max-w-[1600px] mx-auto">
