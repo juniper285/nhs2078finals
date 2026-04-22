@@ -51,7 +51,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['New beginnings', 'Innocence', 'Adventure', 'Freedom'],
     meaning: 'The Fool represents new beginnings, having faith in the future, being inexperienced, not knowing what to expect, and having beginner\'s luck.',
     interpretation: 'You stand at the edge of a new journey. Trust your instincts and take that leap of faith. The universe supports those who dare to begin.',
-    designer: null
+    designer: 'Chloe'
   },
   {
     id: 1,
@@ -60,7 +60,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Manifestation', 'Power', 'Action', 'Creation'],
     meaning: 'The Magician represents having the tools and resources needed, using one\'s talents, taking action, and manifesting one\'s desires.',
     interpretation: 'You have everything you need to succeed. Channel your will and focus your energy. The power to create your reality is in your hands.',
-    designer: null
+    designer: 'Daryl'
   },
   {
     id: 2,
@@ -69,7 +69,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Intuition', 'Mystery', 'Subconscious', 'Wisdom'],
     meaning: 'The High Priestess represents intuition, sacred knowledge, divine feminine, and the subconscious mind.',
     interpretation: 'Listen to your inner voice. The answers you seek lie within. Trust the wisdom that comes from stillness and reflection.',
-    designer: null
+    designer: 'Leng Sang'
   },
   {
     id: 3,
@@ -78,7 +78,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Abundance', 'Nurturing', 'Fertility', 'Nature'],
     meaning: 'The Empress represents motherhood, fertility, nature, abundance, and nurturing.',
     interpretation: 'Abundance flows to you naturally. Nurture your dreams and watch them grow. You are surrounded by creative potential.',
-    designer: null
+    designer: 'Nadrah'
   },
   {
     id: 4,
@@ -87,7 +87,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Authority', 'Structure', 'Control', 'Leadership'],
     meaning: 'The Emperor represents authority, structure, control, and fatherhood.',
     interpretation: 'Step into your power with confidence. Create structure where there is chaos. Your leadership is needed now.',
-    designer: null
+    designer: 'Elvin'
   },
   {
     id: 5,
@@ -96,7 +96,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Tradition', 'Conformity', 'Education', 'Belief'],
     meaning: 'The Hierophant represents tradition, conformity, education, and belief systems.',
     interpretation: 'Honor the wisdom of tradition while finding your own truth. Seek guidance from those who have walked this path before.',
-    designer: null
+    designer: 'Bernie'
   },
   {
     id: 6,
@@ -105,7 +105,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Love', 'Harmony', 'Choice', 'Partnership'],
     meaning: 'The Lovers represent love, harmony, relationships, values alignment, and choices.',
     interpretation: 'A significant choice awaits you. Follow your heart, but use your head. True partnership requires both passion and alignment.',
-    designer: null
+    designer: 'Jesslyn'
   },
   {
     id: 7,
@@ -114,7 +114,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Determination', 'Willpower', 'Victory', 'Control'],
     meaning: 'The Chariot represents control, willpower, success, action, and determination.',
     interpretation: 'Victory comes through focused determination. Harness opposing forces and direct them toward your goal. You are in control.',
-    designer: null
+    designer: 'Alice'
   },
   {
     id: 8,
@@ -123,7 +123,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Courage', 'Patience', 'Compassion', 'Inner strength'],
     meaning: 'Strength represents inner strength, courage, patience, control, and compassion.',
     interpretation: 'True strength is gentle. Face challenges with courage and compassion. Your resilience is greater than you know.',
-    designer: null
+    designer: 'Niharika'
   },
   {
     id: 9,
@@ -132,7 +132,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Solitude', 'Wisdom', 'Introspection', 'Guidance'],
     meaning: 'The Hermit represents soul-searching, introspection, being alone, and inner guidance.',
     interpretation: 'Retreat into solitude to find your answers. The light you seek shines from within. Wisdom comes through reflection.',
-    designer: null
+    designer: 'Chrio'
   },
   {
     id: 10,
@@ -141,7 +141,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Change', 'Cycles', 'Destiny', 'Fortune'],
     meaning: 'The Wheel of Fortune represents good luck, karma, life cycles, destiny, and a turning point.',
     interpretation: 'The wheel turns in your favor. What goes around comes around. Embrace the cycle of change and trust in divine timing.',
-    designer: null
+    designer: 'Ziying'
   },
   {
     id: 11,
@@ -150,7 +150,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Fairness', 'Truth', 'Law', 'Balance'],
     meaning: 'Justice represents fairness, truth, cause and effect, and law.',
     interpretation: 'Truth prevails and balance is restored. Your actions have consequences. Seek fairness in all things.',
-    designer: null
+    designer: 'Yiqing'
   },
   {
     id: 12,
@@ -159,7 +159,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Surrender', 'Perspective', 'Release', 'Suspension'],
     meaning: 'The Hanged Man represents surrender, letting go, new perspectives, and waiting.',
     interpretation: 'Sometimes surrender is the path forward. See your situation from a new angle. What seems like sacrifice may be liberation.',
-    designer: null
+    designer: 'Vayers'
   },
   {
     id: 13,
@@ -168,7 +168,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Transformation', 'Endings', 'Change', 'Transition'],
     meaning: 'Death represents endings, change, transformation, and transition.',
     interpretation: 'An ending makes way for a new beginning. Release what no longer serves you. Transformation is inevitable and necessary.',
-    designer: null
+    designer: 'JJ'
   },
   {
     id: 14,
@@ -177,7 +177,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Balance', 'Moderation', 'Patience', 'Harmony'],
     meaning: 'Temperance represents balance, moderation, patience, purpose, and meaning.',
     interpretation: 'Find the middle path. Blend opposing forces into harmony. Patience and moderation bring lasting success.',
-    designer: null
+    designer: 'Lily'
   },
   {
     id: 15,
@@ -186,7 +186,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Bondage', 'Materialism', 'Temptation', 'Addiction'],
     meaning: 'The Devil represents bondage, materialism, sexuality, and temptation.',
     interpretation: 'Examine what binds you. The chains are often of your own making. Liberation begins with awareness of your attachments.',
-    designer: null
+    designer: 'Aadhi'
   },
   {
     id: 16,
@@ -195,7 +195,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Upheaval', 'Revelation', 'Awakening', 'Chaos'],
     meaning: 'The Tower represents sudden change, upheaval, chaos, revelation, and awakening.',
     interpretation: 'Sometimes structures must fall for truth to emerge. Embrace the chaos—it clears the way for something authentic.',
-    designer: null
+    designer: 'Larissa'
   },
   {
     id: 17,
@@ -204,7 +204,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Hope', 'Faith', 'Renewal', 'Inspiration'],
     meaning: 'The Star represents hope, faith, purpose, renewal, and spirituality.',
     interpretation: 'Hope shines bright even in darkness. Have faith in your dreams. Renewal and healing are on the horizon.',
-    designer: null
+    designer: 'Jo Ee'
   },
   {
     id: 18,
@@ -213,7 +213,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Illusion', 'Intuition', 'Mystery', 'Subconscious'],
     meaning: 'The Moon represents illusion, fear, anxiety, subconscious, and intuition.',
     interpretation: 'Not everything is as it seems. Trust your intuition through uncertain times. The path will become clear.',
-    designer: null
+    designer: 'Trang'
   },
   {
     id: 19,
@@ -222,7 +222,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Joy', 'Success', 'Celebration', 'Vitality'],
     meaning: 'The Sun represents positivity, fun, warmth, success, and vitality.',
     interpretation: 'Joy radiates from within and around you. Success is assured. Celebrate life and let your light shine.',
-    designer: null
+    designer: 'Anh'
   },
   {
     id: 20,
@@ -231,7 +231,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Reflection', 'Reckoning', 'Awakening', 'Renewal'],
     meaning: 'Judgement represents judgement, rebirth, inner calling, and absolution.',
     interpretation: 'A moment of reckoning arrives. Reflect on your journey and make peace with the past. You are ready to rise renewed.',
-    designer: null
+    designer: 'E Xun'
   },
   {
     id: 21,
@@ -240,7 +240,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Completion', 'Achievement', 'Fulfillment', 'Travel'],
     meaning: 'The World represents completion, accomplishment, travel, and fulfillment.',
     interpretation: 'A cycle completes and you achieve what you set out to do. Celebrate your success. The world is yours to explore.',
-    designer: null
+    designer: 'Natasja'
   },
 
   // Minor Arcana - Cups (22-35)
@@ -252,7 +252,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['New love', 'Emotions', 'Creativity', 'Intuition'],
     meaning: 'The Ace of Cups represents new relationships, love, compassion, and creativity.',
     interpretation: 'Your heart overflows with new emotional possibilities. Love, creativity, and intuition flow freely. Open yourself to receive.',
-    designer: null
+    designer: 'Julia'
   },
   {
     id: 23,
@@ -262,7 +262,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Partnership', 'Union', 'Harmony', 'Connection'],
     meaning: 'The Two of Cups represents unified love, partnership, and mutual attraction.',
     interpretation: 'A harmonious connection forms. Partnership and mutual understanding create something beautiful together.',
-    designer: null
+    designer: 'Koo An'
   },
   {
     id: 24,
@@ -272,7 +272,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Celebration', 'Friendship', 'Community', 'Joy'],
     meaning: 'The Three of Cups represents celebration, friendship, creativity, and community.',
     interpretation: 'Celebrate with those you love. Community and friendship bring joy. Share your abundance.',
-    designer: null
+    designer: 'Bridget'
   },
   {
     id: 25,
@@ -282,7 +282,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Contemplation', 'Apathy', 'Meditation', 'Reevaluation'],
     meaning: 'The Four of Cups represents meditation, contemplation, apathy, and reevaluation.',
     interpretation: 'Look within before looking outward. What you seek may already be present, just unseen. Shift your perspective.',
-    designer: null
+    designer: 'Vernon'
   },
   {
     id: 26,
@@ -292,7 +292,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Loss', 'Regret', 'Disappointment', 'Moving on'],
     meaning: 'The Five of Cups represents loss, grief, self-pity, and regret.',
     interpretation: 'Acknowledge your loss, but don\'t dwell in sorrow. What remains can sustain you. Look forward with hope.',
-    designer: null
+    designer: 'Luoqi'
   },
   {
     id: 27,
@@ -302,7 +302,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Nostalgia', 'Memories', 'Innocence', 'Childhood'],
     meaning: 'The Six of Cups represents revisiting the past, childhood memories, and innocence.',
     interpretation: 'The past offers comfort and wisdom. Reconnect with what brought you joy. Innocence and simplicity have their place.',
-    designer: null
+    designer: 'Clarence'
   },
   {
     id: 28,
@@ -332,7 +332,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Satisfaction', 'Wishes', 'Contentment', 'Luxury'],
     meaning: 'The Nine of Cups represents contentment, satisfaction, gratitude, and wishes coming true.',
     interpretation: 'Your wishes are fulfilled. Enjoy this moment of satisfaction. Gratitude amplifies your blessings.',
-    designer: null
+    designer: 'Liong Leong'
   },
   {
     id: 31,
@@ -352,7 +352,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Creativity', 'Intuition', 'Messages', 'Curiosity'],
     meaning: 'The Page of Cups represents creative opportunities, intuitive messages, and curiosity.',
     interpretation: 'A message from your heart arrives. Embrace your creative impulses. Stay curious and open to emotional growth.',
-    designer: null
+    designer: 'Mirella'
   },
   {
     id: 33,
@@ -372,7 +372,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Compassion', 'Intuition', 'Nurturing', 'Emotional depth'],
     meaning: 'The Queen of Cups represents compassion, calm, comfort, and emotional stability.',
     interpretation: 'Lead with compassion and emotional intelligence. Your intuition is your strength. Nurture yourself and others.',
-    designer: null
+    designer: 'Yujun'
   },
   {
     id: 35,
@@ -382,7 +382,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Emotional balance', 'Wisdom', 'Diplomacy', 'Control'],
     meaning: 'The King of Cups represents emotional balance, control, and generosity.',
     interpretation: 'Master your emotions without suppressing them. Balance feeling with wisdom. Your calm leadership inspires others.',
-    designer: null
+    designer: 'Felix'
   },
 
   // Minor Arcana - Pentacles (36-49)
@@ -444,7 +444,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Generosity', 'Charity', 'Giving', 'Receiving'],
     meaning: 'The Six of Pentacles represents gifts, generosity, charity, and sharing wealth.',
     interpretation: 'Give freely without expectation. Receive graciously without shame. Generosity creates abundance for all.',
-    designer: null
+    designer: 'Kenneth'
   },
   {
     id: 42,
@@ -454,7 +454,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Assessment', 'Patience', 'Reward', 'Investment'],
     meaning: 'The Seven of Pentacles represents long-term view, sustainable results, and perseverance.',
     interpretation: 'Pause to assess your progress. Patience yields rewards. Your investment of time and energy will pay off.',
-    designer: null
+    designer: 'Ellery'
   },
   {
     id: 43,
@@ -474,7 +474,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Independence', 'Luxury', 'Self-sufficiency', 'Success'],
     meaning: 'The Nine of Pentacles represents abundance, luxury, self-sufficiency, and financial independence.',
     interpretation: 'Enjoy the fruits of your labor. You\'ve earned this success through discipline. Independence brings true luxury.',
-    designer: null
+    designer: 'Justin'
   },
   {
     id: 45,
@@ -504,7 +504,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Efficiency', 'Routine', 'Reliability', 'Hard work'],
     meaning: 'The Knight of Pentacles represents hard work, productivity, routine, and conservatism.',
     interpretation: 'Steady progress wins the race. Be reliable and methodical. Hard work and dedication bring results.',
-    designer: null
+    designer: 'Harry'
   },
   {
     id: 48,
@@ -514,7 +514,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Nurturing', 'Practical', 'Abundance', 'Security'],
     meaning: 'The Queen of Pentacles represents practicality, creature comforts, financial security, and luxury.',
     interpretation: 'Nurture your resources and relationships. Practical wisdom creates abundance. Comfort and security are within reach.',
-    designer: null
+    designer: 'Amy'
   },
   {
     id: 49,
@@ -524,7 +524,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Wealth', 'Business', 'Leadership', 'Abundance'],
     meaning: 'The King of Pentacles represents wealth, business, leadership, security, and abundance.',
     interpretation: 'Lead with practical wisdom and generosity. Your business acumen creates lasting wealth. Share your abundance.',
-    designer: null
+    designer: 'Kevin'
   },
 
   // Minor Arcana - Swords (50-63)
@@ -536,7 +536,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Clarity', 'Breakthrough', 'Truth', 'Mental power'],
     meaning: 'The Ace of Swords represents breakthroughs, new ideas, mental clarity, and success.',
     interpretation: 'A breakthrough in understanding arrives. Cut through confusion with clarity. Truth and mental power are your allies.',
-    designer: null
+    designer: 'Joseph'
   },
   {
     id: 51,
@@ -546,7 +546,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Difficult choice', 'Stalemate', 'Avoidance', 'Balance'],
     meaning: 'The Two of Swords represents difficult decisions, weighing options, and stalemate.',
     interpretation: 'A decision must be made. Remove the blindfold and see clearly. Avoiding choice is itself a choice.',
-    designer: null
+    designer: 'Emmy'
   },
   {
     id: 52,
@@ -556,7 +556,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Heartbreak', 'Sorrow', 'Pain', 'Release'],
     meaning: 'The Three of Swords represents heartbreak, emotional pain, sorrow, and grief.',
     interpretation: 'Heartbreak is real, but temporary. Allow yourself to feel and heal. Pain acknowledged can be released.',
-    designer: null
+    designer: 'Jem'
   },
   {
     id: 53,
@@ -566,7 +566,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Rest', 'Contemplation', 'Recovery', 'Meditation'],
     meaning: 'The Four of Swords represents rest, relaxation, meditation, and contemplation.',
     interpretation: 'Rest is necessary for renewal. Step back from the battle. Quiet contemplation restores your strength.',
-    designer: null
+    designer: 'Devesh'
   },
   {
     id: 54,
@@ -576,7 +576,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Conflict', 'Defeat', 'Win at all costs', 'Betrayal'],
     meaning: 'The Five of Swords represents conflict, disagreements, competition, and defeat.',
     interpretation: 'Not all victories are worth the cost. Choose your battles wisely. Sometimes walking away is winning.',
-    designer: null
+    designer: 'Danny'
   },
   {
     id: 55,
@@ -596,7 +596,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Deception', 'Strategy', 'Cunning', 'Theft'],
     meaning: 'The Seven of Swords represents betrayal, deception, getting away with something, and acting strategically.',
     interpretation: 'Question what you\'re told. Strategy and cunning have their place, but beware of self-deception. Act with integrity.',
-    designer: null
+    designer: 'Koi'
   },
   {
     id: 57,
@@ -626,7 +626,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Ending', 'Rock bottom', 'Betrayal', 'Crisis'],
     meaning: 'The Ten of Swords represents painful endings, deep wounds, betrayal, and crisis.',
     interpretation: 'This is the darkest before dawn. An ending is complete. From rock bottom, the only way is up. Rebirth awaits.',
-    designer: null
+    designer: 'Siting'
   },
   {
     id: 60,
@@ -636,7 +636,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Curiosity', 'Communication', 'Ideas', 'Vigilance'],
     meaning: 'The Page of Swords represents new ideas, curiosity, thirst for knowledge, and new ways of communicating.',
     interpretation: 'Stay curious and alert. New ideas energize you. Communicate clearly and listen carefully.',
-    designer: null
+    designer: 'Jackson'
   },
   {
     id: 61,
@@ -656,7 +656,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Independence', 'Clear thinking', 'Direct', 'Honest'],
     meaning: 'The Queen of Swords represents independent thinking, clear boundaries, direct communication, and honesty.',
     interpretation: 'Speak your truth with clarity and compassion. Set firm boundaries. Independent thought is your power.',
-    designer: null
+    designer: 'Ezann'
   },
   {
     id: 63,
@@ -666,7 +666,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Authority', 'Logic', 'Truth', 'Intellectual power'],
     meaning: 'The King of Swords represents mental clarity, intellectual power, authority, and truth.',
     interpretation: 'Lead with logic and fairness. Your intellectual authority commands respect. Truth and justice guide your decisions.',
-    designer: null
+    designer: 'Jaymeson'
   },
 
   // Minor Arcana - Wands (64-77)
@@ -678,7 +678,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Inspiration', 'New opportunity', 'Growth', 'Potential'],
     meaning: 'The Ace of Wands represents inspiration, new opportunities, growth, and potential.',
     interpretation: 'Creative fire ignites within you. A new opportunity sparks with potential. Act on your inspiration while it\'s hot.',
-    designer: null
+    designer: 'Christine'
   },
   {
     id: 65,
@@ -688,7 +688,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Planning', 'Future', 'Discovery', 'Decisions'],
     meaning: 'The Two of Wands represents future planning, progress, decisions, and discovery.',
     interpretation: 'The world is yours to explore. Make plans for future expansion. Bold decisions lead to discovery.',
-    designer: null
+    designer: 'Denise'
   },
   {
     id: 66,
@@ -698,7 +698,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Expansion', 'Foresight', 'Progress', 'Overseas'],
     meaning: 'The Three of Wands represents progress, expansion, foresight, and overseas opportunities.',
     interpretation: 'Your efforts are beginning to pay off. Expansion and growth await. Look to the horizon with confidence.',
-    designer: null
+    designer: 'Ashley'
   },
   {
     id: 67,
@@ -708,7 +708,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Celebration', 'Harmony', 'Home', 'Community'],
     meaning: 'The Four of Wands represents celebration, harmony, marriage, home, and community.',
     interpretation: 'Celebrate your achievements and milestones. Community supports you. Home and harmony bring joy.',
-    designer: null
+    designer: 'Keith'
   },
   {
     id: 68,
@@ -718,7 +718,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Conflict', 'Competition', 'Disagreement', 'Tension'],
     meaning: 'The Five of Wands represents conflict, competition, tension, and diversity of opinion.',
     interpretation: 'Healthy competition spurs growth. Navigate disagreements constructively. Tension can be creative when channeled well.',
-    designer: null
+    designer: 'Justin'
   },
   {
     id: 69,
@@ -728,7 +728,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Victory', 'Success', 'Recognition', 'Pride'],
     meaning: 'The Six of Wands represents success, public recognition, progress, and self-confidence.',
     interpretation: 'Victory is yours. Your efforts receive recognition. Enjoy this moment of triumph with humble pride.',
-    designer: null
+    designer: 'Erik'
   },
   {
     id: 70,
@@ -738,7 +738,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Defense', 'Perseverance', 'Challenge', 'Standing ground'],
     meaning: 'The Seven of Wands represents perseverance, defensive stance, maintaining position, and standing your ground.',
     interpretation: 'Stand your ground against challenges. Your position is worth defending. Perseverance brings victory.',
-    designer: null
+    designer: 'Raida'
   },
   {
     id: 71,
@@ -768,7 +768,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Burden', 'Responsibility', 'Hard work', 'Completion'],
     meaning: 'The Ten of Wands represents burden, extra responsibility, hard work, and completion.',
     interpretation: 'You carry a heavy load, but the end is near. Delegate where possible. Completion brings relief and reward.',
-    designer: null
+    designer: 'Rev'
   },
   {
     id: 74,
@@ -798,7 +798,7 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Confidence', 'Independence', 'Determination', 'Vibrancy'],
     meaning: 'The Queen of Wands represents courage, confidence, independence, and determination.',
     interpretation: 'Step into your power with confidence. Your vibrant energy inspires others. Lead with passionate determination.',
-    designer: null
+    designer: 'Amber'
   },
   {
     id: 77,
@@ -808,6 +808,6 @@ export const tarotCards: TarotCard[] = [
     keywords: ['Leadership', 'Vision', 'Entrepreneur', 'Honor'],
     meaning: 'The King of Wands represents natural-born leader, vision, entrepreneur, and honor.',
     interpretation: 'Your vision and leadership create reality. Take bold action with honor. Entrepreneurial spirit brings success.',
-    designer: null
+    designer: 'Dhruv'
   }
 ];
