@@ -63,6 +63,7 @@ export function ReadingPage() {
                   cardId={cardId}
                   onSelect={() => handleCardSelect(cardId)}
                   size="small"
+                  showDesignerLabel={false}
                 />
               ))}
             </div>
@@ -80,6 +81,7 @@ export function ReadingPage() {
                   isFlipped={isRevealed}
                   isSelected={true}
                   size="large"
+                  showDesignerLabel={false}
                 />
               </motion.div>
 

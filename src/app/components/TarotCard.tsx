@@ -10,6 +10,7 @@ interface TarotCardProps {
   onSelect?: () => void;
   size?: 'small' | 'medium' | 'large';
   showBack?: boolean;
+  showDesignerLabel?: boolean;
 }
 
 export function TarotCard({
@@ -19,7 +20,8 @@ export function TarotCard({
   isDimmed = false,
   onSelect,
   size = 'medium',
-  showBack = true
+  showBack = true,
+  showDesignerLabel = true
 }: TarotCardProps) {
   const [isHovered, setIsHovered] = useState(false);
   const card = tarotCards[cardId];
@@ -85,11 +87,11 @@ export function TarotCard({
             </>
           )}
           {/* Designer label on hover */}
-          {card?.designer && (
+          {showDesignerLabel && card?.designer && (
             <div className="absolute bottom-2 left-2 text-[10px] text-purple-200/90 opacity-0 group-hover:opacity-100 transition-opacity bg-black/60 px-2 py-1 rounded backdrop-blur-sm">
               {card.designer}
             </div>
-          )}
+          ))}
         </div>
 
         {/* Card Front */}
