@@ -121,7 +121,7 @@ export function BrowsePage() {
               onClick={() => navigate(`/card/${card.id}`)}
             >
               <div className="flex flex-col items-center">
-                <TarotCard cardId={card.id} size="medium" />
+                <TarotCard cardId={card.id} size="medium" showBack={false} />
                 <div className="text-center mt-2 w-full">
                   <p className="text-purple-300 text-sm font-semibold">{card.name}</p>
                   {card.designer && (

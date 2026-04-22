@@ -46,7 +46,7 @@ export function TarotCard({
     >
       <motion.div
         className="relative w-full h-full"
-        animate={{ rotateY: isFlipped ? 180 : 0 }}
+        animate={{ rotateY: showBack ? (isFlipped ? 180 : 0) : (isFlipped ? 0 : 180) }}
         transition={{ duration: 0.6, ease: 'easeInOut' }}
         style={{ transformStyle: 'preserve-3d' }}
       >
